@@ -6,15 +6,15 @@ Requisitos:
 - Python 3
 - pip3 
 
-Python 3.5–3.7 and pip >= 19.0
+Python 3.5–3.7 e pip >= 19.0
 
-Install the TensorFlow pip package
+Instalação TensorFlow via pip package
 
 tensorflow —Latest stable release with CPU and GPU support (Ubuntu and Windows).
 
 pip3 install --upgrade tensorflow
 
-Verify the install:
+Verifica a instação:
 python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
 
 Keras 
